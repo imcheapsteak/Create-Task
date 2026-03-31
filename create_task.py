@@ -1,5 +1,4 @@
 def mainProgram():
-    # Made by me
     num = int(input('Number (whole): '))
 
     numbers = []
@@ -14,7 +13,6 @@ def mainProgram():
     multiply(num)
     print(numbers)
 
-# Use of AI (with some tweaks)
 def restart():
     while True:
         cont = input('Start Program Again? (y/N): ').lower()
@@ -26,9 +24,8 @@ def restart():
         else:
             print('Invalid input')
 
-if __name__ == '__main__':
-    while True:
-        mainProgram()
-        if not restart():
-            print('Stopping Program')
-            break
+while True:
+    mainProgram()
+    if not restart():
+        print('Stopping Program')
+        break
