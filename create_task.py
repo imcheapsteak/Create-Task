@@ -1,5 +1,5 @@
 def mainProgram():
-    def fibonacciSeq(n):
+    def fibonacciSeries(n):
 
         if n <= 0:
             print('Positive number of terms')
@@ -26,7 +26,7 @@ def mainProgram():
 
     print('Fibonacci series generator') 
     num_terms = int(input('Number of terms (positive wholes): '))
-    fibonacciSeq(num_terms)
+    fibonacciSeries(num_terms)
 
 def restart():
     while True:
