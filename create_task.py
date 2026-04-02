@@ -1,11 +1,11 @@
 def mainProgram():
     def fibonacciSeq(n):
-        series = []
 
         if n <= 0:
             print('Positive number of terms')
             return
         
+        series = []
         a = 0
         b = 1
         series.append(a)
